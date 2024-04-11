@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Baulo">
+	<meta name="description" content="Exemplo da aula 5">
+	<meta name="keywords" content="UCB, Front-End, aula">
+    <style>
+		body {background-color:#87d6d2}
+        h1 {text-align:center;}
+	</style>
+	<title>Formulario e tabelas</title>
+	<h1>Formulario de inscrição!</h1>
+    <h2>Por favor, preencha os dados!</h2>
+        <form>
+		<label for="Mat">Matricula: </label>
+		<input type="text" id="Matricula" name="matricula"
+		required pattern="[U][C][0-9]{8}"
+		placeholder="UC00000000"
+		required maxlength="10"
+		title="Formato UC00000000">
+		<br>
+		<label for="nome">Nome: </label>
+		<input type="text" id="nome" name="Nome"
+		required pattern="[a-zA-ZÀ-Öà-õz\s]+">
+		<br>
+		<label for="email"> Email: </label>
+		<input type="email" name="Email"
+		required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$"
+		placeholder="exemplo@a.ucb.br">
+		<br>
+		<label for="data">Data: </label>
+		<input type="date" id="data" name="data"
+		min="2024-03-04">
+        <br>
+        <label>Selecione a disciplina: </label>
+        <select name="Disciplina">
+            <option>IHC</option>
+            <option>Comp e Socie</option>
+            <option>Dev Front End</option>
+        </select>
+        </form>
+</head>
+<body>
+	<form>
+		<hr>
+		<h2>Avaliação do 1º Bimestre</h2>
+		<h4>Questão 1</h4>
+		<p>
+		Identifique a tag HTML correta para criar um parágrafo de texto.
+		<ol type="a">
+			<li><input type="radio" name="Questão 1">&ltparagrafo&gt;</li>
+			<li><input type="radio" name="Questão 2">&lttext&gt;</li>
+			<li><input type="radio" name="Questão 3">&ltp&gt;</li>
+			<li><input type="radio" name="Questão 4">&ltparagraph&gt;</li>
+		</ol>
+		</p>
+        <h4>Questão 2</h4>
+        <p>
+        Qual dessas tags é usado para definir um titulo de uma página?
+        <ol type="a">
+            <li><input type="radio" name="Questão 1">&lttitle&gt;</li>
+            <li><input type="radio" name="Questão 2">&lthead&gt;</li>
+            <li><input type="radio" name="Questão 3">&lthl&gt;</li>
+            <li><input type="radio" name="Questão 4">&ltheader&gt;</li>
+        </ol>
+        </p>
+        <h4>Questão 3</h4>
+        <p>
+        Qual tag html é usada para criar uma lista ordernada?
+        <ol type="a">
+            <li><input type="radio" name="Questão 1">&lthead&gt;</li>
+            <li><input type="radio" name="Questão 2">&ltul&gt;</li>
+            <li><input type="radio" name="Questão 3">&ltli&gt;</li>
+            <li><input type="radio" name="Questão 4">&ltolisted&gt;</li>
+        </ol>
+        </p>
+        <h4>Questão 4</h4>
+        <p>
+        Insira abaixo um código html que crie um Formulario simples:
+        <br>
+        <label for="caixaTexto"></label>
+        <textarea id="caixa de texto" name="caixa de texto" rows="10" cols="100"></textarea>
+        </p>
+        <br>
+		<input type="submit" value="Enviar">
+	</form>	
+</body>
+</html>
