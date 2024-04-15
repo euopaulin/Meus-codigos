@@ -1,0 +1,129 @@
+.login-screen,
+.login-screen * {
+  box-sizing: border-box;
+}
+.login-screen {
+  background: #121212;
+  height: 932px;
+  position: relative;
+  overflow: hidden;
+}
+.bg-1 {
+  width: 723.56px;
+  height: 387.21px;
+  position: absolute;
+  left: -212px;
+  top: 10.93px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transform-origin: 0 0;
+  transform: rotate(-3.414deg) scale(1, 1);
+  object-fit: cover;
+}
+.group-login {
+  position: absolute;
+  inset: 0;
+}
+.input-login {
+  background: #727272;
+  border-radius: 8px;
+  width: 281px;
+  height: 44px;
+  position: absolute;
+  left: 75px;
+  top: 430px;
+}
+.teste-ucb-br {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 44px);
+  top: 441px;
+  width: 89.68px;
+  height: 22px;
+}
+.group-senha {
+  position: absolute;
+  inset: 0;
+}
+.input-senha {
+  background: #727272;
+  border-radius: 8px;
+  width: 281px;
+  height: 44px;
+  position: absolute;
+  left: 75px;
+  top: 497px;
+}
+.senha {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 27.4px);
+  top: 508px;
+  width: 56.8px;
+  height: 22px;
+}
+.group-enviar {
+  position: absolute;
+  inset: 0;
+}
+.input-senha2 {
+  background: #1ed760;
+  border-radius: 8px;
+  width: 281px;
+  height: 35px;
+  position: absolute;
+  left: 75px;
+  top: 564px;
+}
+.senha2 {
+  color: #121212;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 20px);
+  top: 570px;
+  width: 40px;
+  height: 18px;
+}
+.group-cadastrar {
+  position: absolute;
+  inset: 0;
+}
+.input-senha3 {
+  background: #1ed760;
+  border-radius: 8px;
+  width: 281px;
+  height: 35px;
+  position: absolute;
+  left: 74px;
+  top: 622px;
+}
+.senha3 {
+  color: #121212;
+  text-align: left;
+  font-family: "Inter-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 37px);
+  top: 631px;
+  width: 74px;
+  height: 18px;
+}
+.logo-1 {
+  width: 189px;
+  height: 189px;
+  position: absolute;
+  left: 121px;
+  top: 152px;
+  object-fit: cover;
+}
