@@ -1,7 +1,7 @@
 int main(int argc, char const *argv[])
 {
     /* code */
-    printf("Olá, mundo");
+    printf("Ola, Paulo! ");
     system("pause");
     return 0;
 }
