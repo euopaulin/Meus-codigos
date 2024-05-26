@@ -1,0 +1,24 @@
+<style>
+h2 {color: orangered;}
+body {background-color: rgb(240, 203, 134);}
+p#para1 {
+  font-family: "Comic Sans MS";
+  color: black; /* Cor corrigida */
+  text-align: center;
+  font-size: 25px;
+}
+p#para2 {
+  font-family: "Papyrus";
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+p.direita {text-align: right;}
+p.esquerda {text-align: left;}
+.centro {text-align: center;}
+
+#fundo {background: orange;} /* Corrigido */
+#fundo2 {background: red;}
+#imagem {background-image: url("HTML/f1mclaren.jpg");} /* Caminho da imagem corrigido */
+</style>
+{}
