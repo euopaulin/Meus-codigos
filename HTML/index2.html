@@ -1,72 +1,42 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>O SPFC É O MAIOR DO BRASIL!</title>
-		<meta charset="utf-8">
-		<meta name="author" content="Paulin">
-		<meta name="description" content="Exemplo da Aula 2">
-		<meta name="keywords" content="UCB, Front-end, Aula">
-	</head>
-	<body>
-		<h1><strong>TRÊS MUNDIAIS E TRÊS LIBERTADORES</strong></h1>
-		<p>
-São as conquistas de 1992,1993 e 2005
-		</p>
-		<p>
-Confira abaixo todos os titulos do tricolor paulista:
-		</p>
-		<p>
-3 Mundial Interclubes: 1992, 1993 e 2005
-		</p>
-		<p>
-3 Copa Libertadores da América: 1992, 1993, 2005
-		</p>
-		<p>
-1 Supercopa da Libertadores: 1993
-		</p>
-		<p>
-1 Sul-Americana: 2012
-		</p>
-		<p>
-2 Recopa Sul-Americana: 1993 e 1994
-		</p>
-		<p>
-1 Copa Conmebol: 1994
-		</p>
-		<p>
-1 Copa Master Conmebol: 1996
-		</p>
-		<p>
-6 Brasileiro: 1977, 1986, 1991, 2006, 2007 e 2008
-		</p>
-		<p>
-<h2><em>O unico no Brasil com três mundiais!</em><h2>
-		</p>
-	<h2>Pontos relevantes</h2>
-	<ol type="I">
-		<li>Atualizado 100%</li>
-		<li>2024</li>
-		<li>Não se esqueça jamais do maior do BR!</li>
-	</ol>
-	<ul type="square">
-		<li>Atualizado 100%</li>
-		<li>2024</li>
-		<li>Não se esqueça jamais do maior do BR!</li>
-	</ul>
-	<dl>
-		<dt><strong>Estádio do Morumbi</strong></dt>
-		<dd>Campeão da Copa do Brasil 2023!</dd>
-	</dl>
-	<ul>
-		<li>
-<a href="https://www.saopaulofc.net/">São Paulo FC</a>
-		</li>
-	</ul>	
-	<p>Para saber mais, envie um email para:</p>
-		<a href="mailto:paulohspfc209@gmail.com">Fale com O CARA!</a>
-	<figure>	
-		<img src="F60eyI1X0AA3Q8V.jpg" alt="Foto do MAIOR">
-	<figcaption><h1>É O MAIOR!</h1></figcaption>
-	</figure>
-	</body>
-</html>
+<body>
+  <h1>CSS-Only Floating Labels</h1>
+  <div class="container">
+    <div class="cta-form">
+      <h2>Fill out the form!</h2> 
+    <p>Check out the comments for line by line explanations. Form-related code starts on line 145.</p>
+    </div>
+    <form action="" class="form">
+      
+      <input type="text" placeholder="Name" class="form__input" id="name" />
+      <label for="name" class="form__label">Name</label>
+
+      <input type="email" placeholder="Email" class="form__input" id="email" />
+      <label for="email" class="form__label">Email</label>
+
+      <input type="text" placeholder="Subject" class="form__input" id="subject" />
+      <label for="subject" class="form__label">Subject</label>
+      
+    </form>
+  </div>
+  <div class="explanation">
+    <p>
+      Before we get started, we have to understand how labels, placeholders, and input fields work and how they are used from a UX perspective.
+    </p>
+    <ul>
+      <li>Input fields, by default, have outlines when they are in focus.*</li>
+      <li>Placeholders are used to show users what information is needed in their respective fields.</li>
+      <li>Placeholders are created using the <code>placeholder=""</code> attribute.</li>
+      <li>Placeholders, by default, disappear when text fills the input field. This affects the <code>:placeholder-shown</code> pseudo-selector.*</li>
+      <li>Labels are used for the same reason as placeholders, but don't disappear when text is in the input field. This is great because it allows users to always see what information is required.</li>
+      <li>UX best practices tell us that labels should accompany items in forms (input fields, text areas, checkboxes, etc.).</li>
+    </ul>
+    <p>We'll be using several pseudo-selectors to create this effect.<br>This is the ONLY way to achieve this effect without any JavaScript.</p>
+    <ul>
+      <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:focus">:focus</a></code> — Represents an element (such as a form input) that has received focus.</li>
+      <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:not">:not()</a></code> — Prevents the items passed into the argument from being selected.</li>
+      <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder">:placeholder</a></code> — Represents the placeholder text of <code>input</code> and <code>textarea</code> elements.</li>
+      <li><code><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/:placeholder-shown">:placeholder-shown</a></code> — Represents any <code>input</code> or <code>textarea</code> element that is currently displaying placeholder text.</li>
+    </ul>
+    <p>A non-SCSS version can be found <a href="https://codepen.io/kvncnls/pen/eYzbJJL" target="_blank">here</a> for those that don't use SCSS. Note that this older CodePen has a ROOT font-size of 10px, so any 'rem' values are based on 10px.</p>
+  </div>
+</body>
