@@ -1,0 +1,231 @@
+.tela-login,
+.tela-login * {
+  box-sizing: border-box;
+}
+.tela-login {
+  background: #f3b0bf;
+  height: 832px;
+  position: relative;
+  overflow: hidden;
+}
+.termos-de-uso-pol-tica-de-privacidade {
+  color: #d74c6b;
+  text-align: center;
+  font-family: "AveriaLibre-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 377px;
+  top: 799px;
+  width: 525px;
+  height: 24px;
+}
+.login {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1 {
+  background: linear-gradient(
+    180deg,
+    rgba(243, 176, 191, 1) 0%,
+    rgba(255, 254, 252, 1) 100%
+  );
+  width: 551px;
+  height: 310px;
+  position: absolute;
+  left: 364px;
+  top: 314px;
+}
+.login2 {
+  color: #d74c6b;
+  text-align: center;
+  font-family: "AveriaLibre-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 556px;
+  top: 347px;
+  width: 166px;
+  height: 69px;
+}
+.line-1 {
+  border-style: solid;
+  border-color: #d74c6b;
+  border-width: 1px 0 0 0;
+  width: 471px;
+  height: 0px;
+  position: absolute;
+  left: 404px;
+  top: 469px;
+}
+.line-2 {
+  border-style: solid;
+  border-color: #d74c6b;
+  border-width: 1px 0 0 0;
+  width: 471px;
+  height: 0px;
+  position: absolute;
+  left: 404px;
+  top: 549px;
+}
+.n-o-possui-uma-conta-crie-uma {
+  text-align: center;
+  font-family: "AveriaLibre-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 347px;
+  top: 724px;
+  width: 528px;
+  height: 56px;
+}
+.n-o-possui-uma-conta-crie-uma-span {
+  color: #ffffff;
+  font-family: "AveriaLibre-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.n-o-possui-uma-conta-crie-uma-span2 {
+  color: #d74c6b;
+  font-family: "AveriaLibre-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.esqueceu-a-senha {
+  color: #d74c6b;
+  text-align: left;
+  font-family: "AveriaLibre-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 404px;
+  top: 555px;
+  width: 442px;
+  height: 31px;
+}
+.senha {
+  color: #d74c6b;
+  text-align: left;
+  font-family: "AveriaLibre-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 404px;
+  top: 518px;
+  width: 442px;
+  height: 31px;
+}
+.endere-o-de-e-mail {
+  color: #d74c6b;
+  text-align: left;
+  font-family: "AveriaLibre-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 404px;
+  top: 438px;
+  width: 442px;
+  height: 31px;
+}
+.entrar {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-3 {
+  background: #f3b0bf;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 5px;
+  width: 237px;
+  height: 63px;
+  position: absolute;
+  left: 506px;
+  top: 643px;
+}
+.entrar2 {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AveriaLibre-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 506px;
+  top: 654px;
+  width: 239px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  position: absolute;
+  inset: 0;
+}
+.bem-vindo-anime-chan-para-entrar-voc-pode-usar-seus-dados {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AveriaLibre-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 465px;
+  top: 283px;
+  width: 348px;
+  height: 37px;
+}
+.anime-chan {
+  color: #ffffff;
+  text-align: center;
+  font-family: "LuckiestGuy-Regular", sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  position: absolute;
+  left: 476px;
+  top: 237px;
+  width: 326px;
+  height: 46px;
+}
+.logo2 {
+  width: 230px;
+  height: 199px;
+  position: absolute;
+  left: 525px;
+  top: 30px;
+  object-fit: cover;
+}
+.idioma {
+  position: absolute;
+  inset: 0;
+}
+.portugu-s-brasil {
+  color: #ffffff;
+  text-align: center;
+  font-family: "AveriaLibre-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 1117px;
+  top: 13px;
+  width: 191px;
+  height: 35px;
+}
+.vector {
+  width: 1.09%;
+  height: 1.68%;
+  position: absolute;
+  right: 10.16%;
+  left: 88.75%;
+  bottom: 96.75%;
+  top: 1.56%;
+  overflow: visible;
+}
+.vector2 {
+  width: 1.64%;
+  height: 3.12%;
+  position: absolute;
+  right: 11.95%;
+  left: 86.41%;
+  bottom: 96.39%;
+  top: 0.48%;
+  overflow: visible;
+}
