@@ -1,231 +1,525 @@
-.tela-login,
-.tela-login * {
-  box-sizing: border-box;
+.pagina-inicial
+
+.pagina-inicial * {
+    box-sizing: border-box;
 }
-.tela-login {
-  background: #f3b0bf;
-  height: 832px;
-  position: relative;
-  overflow: hidden;
+
+.página-inicial {
+    background: #100004;
+    height: 832px;
+    position: relative;
+    overflow: hidden;
 }
-.termos-de-uso-pol-tica-de-privacidade {
-  color: #d74c6b;
-  text-align: center;
-  font-family: "AveriaLibre-Regular", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  left: 377px;
-  top: 799px;
-  width: 525px;
-  height: 24px;
+
+.atualizados {
+    height: auto;
+    position: absolute;
+    left: 30px;
+    top: 659px;
+    overflow: visible;
 }
-.login {
-  position: absolute;
-  inset: 0;
+
+.recem-atualizados {
+    color: #d74c6b;
+    text-align: left;
+    font-family: 'AveriaLibre-Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    left: 30px;
+    top: 628px;
+    width: 467px;
+    height: 19px;
 }
-.rectangle-1 {
-  background: linear-gradient(
-    180deg,
-    rgba(243, 176, 191, 1) 0%,
-    rgba(255, 254, 252, 1) 100%
-  );
-  width: 551px;
-  height: 310px;
-  position: absolute;
-  left: 364px;
-  top: 314px;
+
+.naruto {
+    position: absolute;
+    inset: 0;
 }
-.login2 {
-  color: #d74c6b;
-  text-align: center;
-  font-family: "AveriaLibre-Regular", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  position: absolute;
-  left: 556px;
-  top: 347px;
-  width: 166px;
-  height: 69px;
+
+.uzumaki-naruto-quer-ser-o-melhor-ninja-de-todos-ele-est-indo-muito-bem-mas-com-o-perigo-iminente-imposto-pela-misteriosa-akatsuki-naruto-percebe-que-ele-deve-treinar-mais-que-nunca-e-deixa-sua-vila-para-um-intenso-treinamento-que-o-pressiona-contra-seus-limites {
+    color: #ffffff;
+    text-align: justified;
+    font-family: 'AveriaLibre-Regular', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    position: absolute;
+    left: 657px;
+    top: 510px;
+    width: 293px;
+    height: 83px;
 }
-.line-1 {
-  border-style: solid;
-  border-color: #d74c6b;
-  border-width: 1px 0 0 0;
-  width: 471px;
-  height: 0px;
-  position: absolute;
-  left: 404px;
-  top: 469px;
+
+.leg-dub {
+    color: #ffffff;
+    text-align: justified;
+    font-family: 'AveriaLibre-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 684px;
+    top: 488px;
+    width: 265px;
+    height: 17px;
 }
-.line-2 {
-  border-style: solid;
-  border-color: #d74c6b;
-  border-width: 1px 0 0 0;
-  width: 471px;
-  height: 0px;
-  position: absolute;
-  left: 404px;
-  top: 549px;
-}
-.n-o-possui-uma-conta-crie-uma {
-  text-align: center;
-  font-family: "AveriaLibre-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  position: absolute;
-  left: 347px;
-  top: 724px;
-  width: 528px;
-  height: 56px;
-}
-.n-o-possui-uma-conta-crie-uma-span {
-  color: #ffffff;
-  font-family: "AveriaLibre-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-}
-.n-o-possui-uma-conta-crie-uma-span2 {
-  color: #d74c6b;
-  font-family: "AveriaLibre-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-}
-.esqueceu-a-senha {
-  color: #d74c6b;
-  text-align: left;
-  font-family: "AveriaLibre-Regular", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  left: 404px;
-  top: 555px;
-  width: 442px;
-  height: 31px;
-}
-.senha {
-  color: #d74c6b;
-  text-align: left;
-  font-family: "AveriaLibre-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  position: absolute;
-  left: 404px;
-  top: 518px;
-  width: 442px;
-  height: 31px;
-}
-.endere-o-de-e-mail {
-  color: #d74c6b;
-  text-align: left;
-  font-family: "AveriaLibre-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  position: absolute;
-  left: 404px;
-  top: 438px;
-  width: 442px;
-  height: 31px;
-}
-.entrar {
-  position: absolute;
-  inset: 0;
-}
-.rectangle-3 {
-  background: #f3b0bf;
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 5px;
-  width: 237px;
-  height: 63px;
-  position: absolute;
-  left: 506px;
-  top: 643px;
-}
-.entrar2 {
-  color: #ffffff;
-  text-align: center;
-  font-family: "AveriaLibre-Regular", sans-serif;
-  font-size: 30px;
-  font-weight: 400;
-  position: absolute;
-  left: 506px;
-  top: 654px;
-  width: 239px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.logo {
-  position: absolute;
-  inset: 0;
-}
-.bem-vindo-anime-chan-para-entrar-voc-pode-usar-seus-dados {
-  color: #ffffff;
-  text-align: center;
-  font-family: "AveriaLibre-Regular", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  position: absolute;
-  left: 465px;
-  top: 283px;
-  width: 348px;
-  height: 37px;
-}
-.anime-chan {
-  color: #ffffff;
-  text-align: center;
-  font-family: "LuckiestGuy-Regular", sans-serif;
-  font-size: 45px;
-  font-weight: 400;
-  position: absolute;
-  left: 476px;
-  top: 237px;
-  width: 326px;
-  height: 46px;
-}
-.logo2 {
-  width: 230px;
-  height: 199px;
-  position: absolute;
-  left: 525px;
-  top: 30px;
-  object-fit: cover;
-}
-.idioma {
-  position: absolute;
-  inset: 0;
-}
-.portugu-s-brasil {
-  color: #ffffff;
-  text-align: center;
-  font-family: "AveriaLibre-Regular", sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  position: absolute;
-  left: 1117px;
-  top: 13px;
-  width: 191px;
-  height: 35px;
-}
+
 .vector {
-  width: 1.09%;
-  height: 1.68%;
-  position: absolute;
-  right: 10.16%;
-  left: 88.75%;
-  bottom: 96.75%;
-  top: 1.56%;
-  overflow: visible;
+    width: 1.33%;
+    height: 2.26%;
+    position: absolute;
+    right: 46.95%;
+    left: 51.72%;
+    bottom: 39.21%;
+    top: 58.53%;
+    overflow: visible;
 }
+
+._5-estrelas {
+    width: 8.37%;
+    height: 2.25%;
+    position: absolute;
+    right: 40.3%;
+    left: 51.33%;
+    bottom: 43.06%;
+    top: 54.69%;
+    overflow: visible;
+}
+
+.naruto-shippuden {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'AveriaLibre-Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    left: 657px;
+    top: 429px;
+    width: 309px;
+    height: 26px;
+}
+
+.naruto-1 {
+    width: 113px;
+    height: 172px;
+    position: absolute;
+    left: 529px;
+    top: 423px;
+    object-fit: cover;
+}
+
+.one-piece {
+    position: absolute;
+    inset: 0;
+}
+
+.houve-um-homem-que-conquistou-tudo-aquilo-que-o-mundo-tinha-a-oferecer-o-lend-rio-rei-dos-piratas-gold-roger-capturado-e-condenado-execu-o-pelo-governo-mundial-suas-ltimas-palavras-lan-aram-legi-es-aos-mares-meu-tesouro-se-quiserem-podem-peg-lo-procurem-no-ele-cont-m-tudo-que-este-mundo-pode-oferecer {
+    color: #ffffff;
+    text-align: justified;
+    font-family: 'AveriaLibre-Regular', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    position: absolute;
+    left: 155px;
+    top: 510px;
+    width: 293px;
+    height: 83px;
+}
+
+.leg-dub2 {
+    color: #ffffff;
+    text-align: justified;
+    font-family: 'AveriaLibre-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 176px;
+    top: 487px;
+    width: 265px;
+    height: 17px;
+}
+
 .vector2 {
-  width: 1.64%;
-  height: 3.12%;
-  position: absolute;
-  right: 11.95%;
-  left: 86.41%;
-  bottom: 96.39%;
-  top: 0.48%;
-  overflow: visible;
+    width: 1.33%;
+    height: 2.26%;
+    position: absolute;
+    right: 86.64%;
+    left: 12.03%;
+    bottom: 39.21%;
+    top: 58.53%;
+    overflow: visible;
+}
+
+._5-estrelas2 {
+    width: 8.37%;
+    height: 2.25%;
+    position: absolute;
+    right: 79.76%;
+    left: 11.88%;
+    bottom: 43.18%;
+    top: 54.57%;
+    overflow: visible;
+}
+
+.one-piece2 {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'AveriaLibre-Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    left: 152px;
+    top: 428px;
+    width: 309px;
+    height: 26px;
+}
+
+.one-1 {
+    width: 113px;
+    height: 168px;
+    position: absolute;
+    left: 27px;
+    top: 425px;
+    object-fit: cover;
+}
+
+.os-mais-populares {
+    color: #d74c6b;
+    text-align: left;
+    font-family: 'AveriaLibre-Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    left: 31px;
+    top: 392px;
+    width: 467px;
+    height: 19px;
+}
+
+.buddy {
+    position: absolute;
+    inset: 0;
+}
+
+.quando-dois-assassinos-profissionais-eliminam-um-perigoso-mafioso-a-ltima-coisa-que-eles-esperavam-que-ele-tivesse-uma-filhinha-de-quatro-anos-agora-rf-mas-quando-eles-decidem-assumir-a-guarda-da-crian-a-sua-vida-vira-de-pernas-pro-ar-entre-uma-miss-o-aqui-e-um-tiroteio-ali-os-dois-matadores-de-aluguel-ter-o-de-achar-tempo-para-preparar-refei-es-nutritivas-estimular-o-crescimento-intelectual-da-crian-a-e-levar-a-pequena-at-a-creche {
+    color: #ffffff;
+    text-align: justified;
+    font-family: 'AveriaLibre-Regular', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    position: absolute;
+    left: 656px;
+    top: 274px;
+    width: 304px;
+    height: 83px;
+}
+
+.leg-dub3 {
+    color: #ffffff;
+    text-align: justified;
+    font-family: 'AveriaLibre-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 687px;
+    top: 248px;
+    width: 276px;
+    height: 17px;
+}
+
+.vector3 {
+    width: 1.33%;
+    height: 2.26%;
+    position: absolute;
+    right: 47.03%;
+    left: 51.64%;
+    bottom: 68.17%;
+    top: 29.57%;
+    overflow: visible;
+}
+
+._5-estrelas3 {
+    width: 8.37%;
+    height: 2.25%;
+    position: absolute;
+    right: 40.3%;
+    left: 51.33%;
+    bottom: 71.55%;
+    top: 26.2%;
+    overflow: visible;
+}
+
+.buddy-daddies {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'AveriaLibre-Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    left: 656px;
+    top: 192px;
+    width: 293px;
+    height: 26px;
+}
+
+.buddy-1 {
+    width: 109px;
+    height: 165px;
+    position: absolute;
+    left: 531px;
+    top: 192px;
+    object-fit: cover;
+}
+
+.yamada {
+    position: absolute;
+    inset: 0;
+}
+
+.leg-dub4 {
+    color: #ffffff;
+    text-align: justified;
+    font-family: 'AveriaLibre-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    left: 183px;
+    top: 246px;
+    width: 265px;
+    height: 17px;
+}
+
+.vector4 {
+    width: 1.33%;
+    height: 2.26%;
+    position: absolute;
+    right: 86.41%;
+    left: 12.27%;
+    bottom: 68.29%;
+    top: 29.45%;
+    overflow: visible;
+}
+
+._5-estrelas4 {
+    width: 8.37%;
+    height: 2.25%;
+    position: absolute;
+    right: 79.37%;
+    left: 12.27%;
+    bottom: 71.55%;
+    top: 26.2%;
+    overflow: visible;
+}
+
+.ryu-yamada-um-estudante-do-segundo-ano-do-col-gio-suzaku-ryu-sempre-se-atrasa-para-a-escola-dorme-no-meio-da-aula-e-fica-com-as-piores-notas-sua-vida-um-t-dio-mortal-a-linda-urara-shiraishi-por-outro-lado-a-mais-brilhante-aluna-do-suzaku-um-dia-sem-qualquer-explica-o-seus-corpos-s-o-trocados-como-vai-ser-a-vida-de-ryu-no-corpo-de-urara-e-de-urara-no-corpo-de-ryu {
+    color: #ffffff;
+    text-align: justified;
+    font-family: 'AveriaLibre-Regular', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    position: absolute;
+    left: 155px;
+    top: 274px;
+    width: 293px;
+    height: 83px;
+}
+
+.yamada-kun-and-the-seven-witches {
+    color: #ffffff;
+    text-align: left;
+    font-family: 'AveriaLibre-Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    left: 157px;
+    top: 192px;
+    width: 309px;
+    height: 26px;
+}
+
+.yamada-1 {
+    width: 109px;
+    height: 165px;
+    position: absolute;
+    left: 31px;
+    top: 192px;
+    object-fit: cover;
+}
+
+.recomenda-es-da-semana-anime-chan {
+    color: #d74c6b;
+    text-align: left;
+    font-family: 'AveriaLibre-Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    left: 31px;
+    top: 159px;
+    width: 467px;
+    height: 19px;
+}
+
+.seus-animes-em-um-s-lugar {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'AveriaLibre-Bold', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    left: 324px;
+    top: 100px;
+    width: 348px;
+    height: 37px;
+}
+
+.rectangle-4 {
+    background: #f1a3b4;
+    width: 1280px;
+    height: 78px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.vector5 {
+    width: 2.58%;
+    height: 4.81%;
+    position: absolute;
+    right: 0.86%;
+    left: 96.56%;
+    bottom: 93.39%;
+    top: 1.8%;
+    overflow: visible;
+}
+
+.catalogo {
+    width: 247px;
+    height: 754px;
+    position: absolute;
+    left: 1037px;
+    top: 78px;
+}
+
+.vector6 {
+    width: 2.81%;
+    height: 4.45%;
+    position: absolute;
+    right: 4.38%;
+    left: 92.81%;
+    bottom: 93.27%;
+    top: 2.28%;
+    overflow: visible;
+}
+
+.salvar {
+    width: 2.19%;
+    height: 3.85%;
+    position: absolute;
+    right: 9.38%;
+    left: 88.44%;
+    bottom: 93.75%;
+    top: 2.4%;
+    overflow: visible;
+}
+
+.vector7 {
+    width: 2.58%;
+    height: 3.97%;
+    position: absolute;
+    right: 13.75%;
+    left: 83.67%;
+    bottom: 93.75%;
+    top: 2.28%;
+    overflow: visible;
+}
+
+.teste-premium {
+    position: absolute;
+    inset: 0;
+}
+
+.vector8 {
+    width: 2.11%;
+    height: 2.88%;
+    position: absolute;
+    right: 30.08%;
+    left: 67.81%;
+    bottom: 93.99%;
+    top: 3.12%;
+    overflow: visible;
+}
+
+.teste-gratis-premium {
+    text-align: center;
+    font-family: '-', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position: absolute;
+    left: 904px;
+    top: 19px;
+    width: 126px;
+    height: 50px;
+}
+
+.teste-gratis-premium-span {
+    color: #ffffff;
+    font-family: 'AveriaLibre-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.teste-gratis-premium-span2 {
+    color: #fccf5c;
+    font-family: 'AveriaLibre-Bold', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.anime-chan {
+    position: absolute;
+    inset: 0;
+}
+
+.anime-chan2 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'LuckiestGuy-Regular', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    left: 99px;
+    top: 33px;
+    width: 201px;
+    height: 30px;
+}
+
+.logo {
+    width: 78px;
+    height: 67px;
+    position: absolute;
+    left: 21px;
+    top: 6px;
+    object-fit: cover;
+}
+
+.catalogo2 {
+    position: absolute;
+    inset: 0;
+}
+
+.rectangle-5 {
+    background: #f1a3b4;
+    width: 247px;
+    height: 754px;
+    position: absolute;
+    left: 1037px;
+    top: 78px;
+}
+
+.catalogo3 {
+    width: 243px;
+    height: 753px;
+    position: absolute;
+    left: 1037px;
+    top: 79px;
+    object-fit: cover;
 }
